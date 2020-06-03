@@ -10,5 +10,5 @@
 #'
 #' @examples
 impute <- function(network, threshold) {
-  network
+  print(network)
 }
