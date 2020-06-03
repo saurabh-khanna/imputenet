@@ -1,16 +1,17 @@
 Package: imputenet
-Title: What the Package Does (One Line, Title Case)
+Title: Impute Missing Network Data
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Saurabh",
+           family = "Khanna",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "saurabhkhanna@stanford.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0002-9346-4896"))
+Description: `imputenet` imputes missing network data using XYZ algorithms.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
+Suggests: 
+    testthat
