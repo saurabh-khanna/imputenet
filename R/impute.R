@@ -1,6 +1,6 @@
 #' Impute missing network data
 #'
-#' This function imputes missing network data using XYZ multiple imputations.
+#' This function imputes missing network data using multiple imputations generated through collaborative filtering.
 #'
 #' @param network igraph
 #' @param threshold dbl

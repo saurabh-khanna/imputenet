@@ -15,5 +15,5 @@ impute(network, threshold)
 igraph
 }
 \description{
-This function imputes missing network data using XYZ multiple imputations.
+This function imputes missing network data using multiple imputations generated through collaborative filtering.
 }
